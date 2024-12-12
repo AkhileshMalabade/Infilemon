@@ -54,7 +54,7 @@
     
       #contactus h2{
         filter: drop-shadow(1px 2px 2px #1f1f1f59);
-        color: #1b1b1b;
+        color: #7c7c7c;
       }
     
       #contactus .btn{
@@ -192,7 +192,7 @@
     
       #contactus h2{
         filter: drop-shadow(1px 2px 2px #1f1f1f59);
-        color: #1b1b1b;
+        color: #363636;
       }
     
       #contactus .btn{
@@ -230,7 +230,8 @@
   #first h2{
     font-size: 2.5rem;
     font-weight: bold;
-    color: #000000;
+    color: #353535;
+    filter: drop-shadow(1px 2px 2px #1f1f1f59);
   }
   
   #first span{

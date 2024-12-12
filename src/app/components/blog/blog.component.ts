@@ -86,7 +86,8 @@ navigateToBlog(arg0: any) {
             description: "When you want to hire the best mobile app development company then you have to consider many things. Well, you may be surprised by the number of options available in the mobile app development market./nIn today’s world, every business industry today needs an app if they want to stay ahead of the market and reach their potential customers. A mobile app is one of the best ways to promote the growth of your business in this competitive market. You may get good expertise in your field of business, but this does not really mean that you have to know all the things to build an app for your business. The best way to do this is to choose the best mobile app development company in Ahmedabad./nWhen you begin the process of hiring a mobile app development company in Ahmedabad, you should first examine their portfolio of work. Significantly, you check the details of the company you are considering hiring. This whole process gives you a better understanding of what kind of work the company is capable of. You should spend some time researching their work and the clients with whom they have worked in the past. This step helps you make the right decision for your business application project.",
             image: "https://ideamaker.agency/wp-content/uploads/2022/11/Android-App-Development-Services.png",
             url: "https://www.infilon.com/blog/double-your-leads-traffic-and-conversions-today-here-s-how"
-        }
+        },
+        
       ]
 }
 

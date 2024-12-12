@@ -190,6 +190,7 @@
 
   .form-container .info {
     flex: 1;
+    filter: drop-shadow(1px 2px 2px #16161680);
   }
 
   .form-container .info h1 {
@@ -224,6 +225,7 @@
     border: none;
     border-radius: 8px;
     margin-bottom: 20px;
+    filter: drop-shadow(2px 3px 5px #16161680);
     background-color: #f5f5f5;
     color: #3d3c3c;
     font-size: 1.2rem;
