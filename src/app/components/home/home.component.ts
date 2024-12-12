@@ -31,7 +31,7 @@ navigateToContact() {
   currentCount3: number = 0;
 
   ngOnInit(): void {
-    this.startCounting();
+
     this.type();
   }
 
@@ -43,7 +43,7 @@ navigateToContact() {
     const timer = setInterval(() => {
       current1++;
       this.currentCount1 = current1;
-      if (current1 === 4) {
+      if (current1 === 2) {
         clearInterval(timer);
       }
     }, stepTime);
@@ -51,7 +51,7 @@ navigateToContact() {
     const timer2 = setInterval(() => {
       current2++;
       this.currentCount2 = current2;
-      if (current2 === 332) {
+      if (current2 === 99) {
         clearInterval(timer2);
       }
     }, stepTime);
@@ -59,10 +59,27 @@ navigateToContact() {
     const timer3 = setInterval(() => {
       current3++;
       this.currentCount3 = current3;
-      if (current3 === 250) {
+      if (current3 === 45) {
         clearInterval(timer3);
       }
     }, stepTime);
+  }
+
+  ngAfterViewInit(): void {
+    const target = document.getElementById('compnums');
+
+    if (target) {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            this.startCounting();
+          }
+        },
+        { threshold: 0.5 } // Trigger when 50% of the element is visible
+      );
+
+      observer.observe(target);
+    }
   }
 
 }

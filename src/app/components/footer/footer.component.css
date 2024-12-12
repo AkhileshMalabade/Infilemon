@@ -1,4 +1,181 @@
-#foot{
+@media only screen and (max-width: 600px) {
+
+  #foot{
+    background-color: transparent;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-direction: row;
+    height:100%;
+  }
+
+  .form-container .info {
+    flex: 1;
+  }
+
+  .form-container .info h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+  }
+
+  .form-container .info p {
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .form-container .info span {
+    color: #e25c2c; 
+  }
+  
+
+  .form-container .form {
+    flex: 1;
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    color: #3d3c3c;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .form-container .form .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .form-container .form .btn {
+    background-color: #ffffff;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 30px;
+  }
+
+  .form-container .form .btn:hover {
+    background-color: #e25c2c;
+    color: white;
+  }
+
+  #social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 2px solid #e25c2c;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #foot{
+    background-color: transparent;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    flex-direction: row;
+    height:100%;
+    width: 100%;
+  }
+
+  .form-container .info {
+    flex: 1;
+  }
+
+  .form-container .info h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: white;
+  }
+
+  .form-container .info p {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 10px;
+  }
+
+  .form-container .info span {
+    color: #e25c2c; 
+  }
+  
+
+  .form-container .form {
+    flex: 1;
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    color: #3d3c3c;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .form-container .form .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .form-container .form .btn {
+    background-color: #ffffff;
+    border: none;
+    font-size: larg;
+    font-weight: bold;
+    padding: 10px 30px;
+  }
+
+  .form-container .form .btn:hover {
+    background-color: #e25c2c;
+    color: white;
+  }
+
+  #social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 2px solid #e25c2c;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+  #foot{
     background-color: transparent;
 }
 
@@ -81,3 +258,6 @@
 
     border: 2px solid #e25c2c;
   }
+
+}
+
