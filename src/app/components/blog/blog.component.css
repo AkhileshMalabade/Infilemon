@@ -1,0 +1,316 @@
+/* Small screens: Phones */
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+      background-color: #f0f0f0;
+  }
+  .container-fluid{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+      margin-top: -2vh;
+    }
+    #typing-container {
+      font-family: Arial, sans-serif;
+      white-space: pre-wrap;
+      width: 100%;
+      color: white;
+      font-weight: bolder;
+      text-wrap: wrap;
+      font-size: 2.5rem;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      text-align: center;
+      background: transparent;
+    }
+    #hireteam{
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      background-color: #e25c2c;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    #hireteam2{
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(1px 2px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      font-size: 1.2em;
+      width: 70%;
+      text-align: center;
+  }
+  /* Add other styles specific to small screens */
+}
+
+/* Medium screens: Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+      font-size: 16px;
+      background-color: #e0e0e0;
+  }
+  .container-fluid{
+      height: 50vh;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      padding: 0;
+      margin: 0;
+      margin-top: -2vh;
+    }
+    #typing-container {
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      white-space: pre-wrap;
+      width: 500px;
+      color: white;
+      font-weight: bolder;
+      font-size: 2.5rem;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      text-align: center;
+      background: transparent;
+    }
+    #hireteam{
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      font-size: 1.2em;
+      background-color: #e25c2c;
+    }
+   
+    #hireteam2{
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(1px 2px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      font-size: 1.2em;
+      width: 70%;
+      text-align: center;
+  }
+  /* Add other styles specific to medium screens */
+}
+
+/* Large screens: Laptops and Desktops */
+@media only screen and (min-width: 1025px) {
+  body {
+      font-size: 18px;
+      background-color: #d0d0d0;
+  }
+  .container-fluid{
+      height: 98vh;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      padding: 0;
+      margin: 0;
+      margin-top: -2vh;
+    }
+    #typing-container {
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      white-space: pre-wrap;
+      width: 600px;
+      color: white;
+      font-weight: bolder;
+      font-size: 4rem;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      text-align: center;
+      background: transparent;
+    }
+    #hireteam{
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      background-color: #e25c2c;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+   
+  /* Add other styles specific to large screens */
+}
+  
+    #hireteam:hover{
+      background-color: rgb(148, 78, 46);
+
+    }
+
+    #blogs h2 {
+        font-size: 1em;
+        font-weight: bold;
+        color: #b8b8b8;
+      }
+    
+      #blogs h3 {
+        font-size: 2.1em;
+        font-weight: bolder;
+      }
+    
+      #blogs #cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        
+      }
+    
+      /* Card Customization */
+      #blogs .card {
+        border: none;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s, box-shadow 0.3s;
+        height: 100%;
+        width: 100%;
+        box-shadow: rgba(43, 44, 46, 0.2) 0px 4px 20px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+      }
+      
+    
+      #blogs .card .card-img-top {
+        height: 250px;
+        transition: transform 0.3s;
+      }
+    
+      #blogs .card:hover .card-img-top {
+        transform: scale(1.1);
+      }    
+    
+      #blogs .card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        padding-top: 20px;
+      }
+    
+      #blogs .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #333;
+      }
+    
+      #blogs .card-text {
+        font-size: 1rem;
+        color: #666;
+      }
+    
+      /* Responsive Text Adjustments */
+      @media (max-width: 992px) {
+        #blogs .card-title {
+          font-size: 1.25rem;
+        }
+    
+        #blogs .card-text {
+          font-size: 0.9rem;
+        }
+      }
+    
+      @media (max-width: 768px) {
+        #blogs .card-title {
+          font-size: 1.1rem;
+        }
+    
+        #blogs .card-text {
+          font-size: 0.85rem;
+        }
+      }
+    
+      #blogs .btn-link {
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+      }
+    
+      #blogs .btn-link:hover {
+        text-decoration: underline;
+      }
+    
+    #blogs{
+      background-color: #ffffff;
+      padding-top: 40px;
+      padding-bottom: 60px;
+    }
+
+    #blog{
+      background-color: #ffffff;
+      padding-top: 90px;
+      padding-bottom: 60px;
+    }
+
+    #blog .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #second h3{
+        font-size: 1.5rem;
+        color: rgb(88, 88, 88);
+    }
+
+    #blog h2{
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+    
+    #blog .card-img-top{
+        width: 70%;
+    }
+
+    .row
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        padding: 40px;
+    }
+
+    .col-md-6{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #blog-description{
+        font-size: larger;
+        text-align: left;
+    }

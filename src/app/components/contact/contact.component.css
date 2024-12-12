@@ -1,0 +1,54 @@
+.contact-section {
+  padding: 50px 0;
+}
+.form-container {
+  background: transparent;
+  color: #333;
+  padding: 30px;
+}
+.infoContainer{
+  padding: 30px;
+}
+.form-container h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.form-container p{
+  font-size: 1.2rem;
+}
+.form-container .form-label{
+  font-size: 1.2rem;
+}
+.form-control, .btn {
+  border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px;
+  height: 60px;
+  font-size: 1.3rem;
+  font-weight: 540;
+  
+}
+.info-container {
+  margin-top: 30px;
+}
+.info-container h5 {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.info-container ul {
+  list-style: none;
+  padding: 0;
+}
+.info-container ul li {
+  margin-bottom: 10px;
+}
+input{
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+#submit{
+  margin-top: 30px;
+}

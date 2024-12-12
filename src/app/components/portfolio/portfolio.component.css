@@ -1,0 +1,268 @@
+/* Small screens: Phones */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+        background-color: #f0f0f0;
+    }
+    .container-fluid{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        text-align: center;
+        margin: 0;
+        margin-top: -2vh;
+      }
+      #typing-container {
+        font-family: Arial, sans-serif;
+        white-space: pre-wrap;
+        width: 100%;
+        color: white;
+        font-weight: bolder;
+        text-wrap: wrap;
+        font-size: 2.5rem;
+        filter: drop-shadow(4px 5px 4px #00000059);
+        text-align: center;
+        background: transparent;
+      }
+      #hireteam{
+        border: none;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        filter: drop-shadow(4px 5px 4px #00000059);
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        font-size: 1.2em;
+      }
+      #contactus{
+        height: 100%;
+        background-color: #e9e8e8;
+        display: flex;
+        justify-content: center;
+        align-items :center;
+        padding: 20px;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    
+      #contactus h2{
+        filter: drop-shadow(1px 2px 2px #1f1f1f59);
+        color: #1b1b1b;
+      }
+    
+      #contactus .btn{
+        background-color: #e25c2c;
+        font-size: large;
+        font-weight: 700;
+        color: #e9e8e8;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    /* Add other styles specific to small screens */
+}
+
+/* Medium screens: Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+        background-color: #e0e0e0;
+    }
+    .container-fluid{
+        height: 50vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0;
+        margin: 0;
+        margin-top: -2vh;
+      }
+      #typing-container {
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        white-space: pre-wrap;
+        width: 500px;
+        color: white;
+        font-weight: bolder;
+        font-size: 4rem;
+        filter: drop-shadow(4px 5px 4px #00000059);
+        text-align: center;
+        background: transparent;
+      }
+      #hireteam{
+        border: none;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        filter: drop-shadow(4px 5px 4px #00000059);
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        font-size: 1.2em;
+      }
+      #contactus{
+        height: 100%;
+        background-color: #e9e8e8;
+        display: flex;
+        justify-content: center;
+        align-items :center;
+        padding: 20px;
+        flex-direction: column;
+        font-family: Arial, sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    
+      #contactus h2{
+        filter: drop-shadow(1px 2px 2px #1f1f1f59);
+        color: #1b1b1b;
+      }
+    
+      #contactus .btn{
+        background-color: #e25c2c;
+        font-size: x-large;
+        font-weight: 700;
+        color: #e9e8e8;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    /* Add other styles specific to medium screens */
+}
+
+/* Large screens: Laptops and Desktops */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px;
+        background-color: #d0d0d0;
+    }
+    .container-fluid{
+        height: 98vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        padding: 0;
+        margin: 0;
+        margin-top: -2vh;
+      }
+      #typing-container {
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+        white-space: pre-wrap;
+        width: 600px;
+        color: white;
+        font-weight: bolder;
+        font-size: 4rem;
+        filter: drop-shadow(4px 5px 4px #00000059);
+        text-align: center;
+        background: transparent;
+      }
+      #hireteam{
+        border: none;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        filter: drop-shadow(4px 5px 4px #00000059);
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin-top: 20px;
+        font-size: 1.2em;
+      }
+      #contactus{
+        height: 100%;
+        background-color: #e9e8e8;
+        display: flex;
+        justify-content: space-around;
+        align-items :center;
+        padding: 20px;
+        flex-direction: row;
+        font-family: Arial, sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    
+      #contactus h2{
+        filter: drop-shadow(1px 2px 2px #1f1f1f59);
+        color: #1b1b1b;
+      }
+    
+      #contactus .btn{
+        background-color: #e25c2c;
+        font-size: x-large;
+        font-weight: 700;
+        color: #e9e8e8;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    /* Add other styles specific to large screens */
+}
+
+
+
+  
+  #buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #ffffff;
+  }
+
+  #first h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  #first span{
+    font-size: 1.2rem;
+    color: #000000;
+    width: 800px;
+  }
+
+  .image-container {
+    height: 400px;
+    width: 350px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .image-container img {
+    width: 100%;     /* Scale to container width */
+  height: auto;    /* Maintain aspect ratio */
+  object-fit: cover;  /* Ensures the image covers the container without stretching */
+  transform: translateY(0);  /* Keep image position unaffected by scroll */
+  image-rendering: auto;  /* For smooth scaling */
+  }
+  
+  #cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    background-color: #ffffff;
+  }
+
+
+  

@@ -1,0 +1,53 @@
+ /* Custom Styling */
+ .navbar {
+  background-color: transparent;
+  filter: drop-shadow(4px 5px 4px #00000059);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.4s ease;
+}
+
+.navbar.scrolled {
+  background-color: #312d2bea;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img {
+  height: 50px;
+  filter: drop-shadow(4px 5px 4px #00000059);
+}
+
+a.nav-link {
+  color: rgb(247, 247, 247);
+  font-weight: bold;
+  filter: drop-shadow(1px 3px 4px #00000011);
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+#hireteam{
+  background-color: #e25c2c;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  filter: drop-shadow(4px 5px 4px #00000059);
+}
+
+#hireteam:hover{
+  background-color: rgb(148, 78, 46);
+  color: white;
+}

@@ -1,0 +1,56 @@
+<div class="container-fluid">
+    <div id="typing-container">
+        Interesting articles updated daily
+    </div>    
+      <button id="hireteam" href="/blogs" (click)="scrollToDiv()">Start Reading</button>
+</div>
+
+<div id="blogs" #myDiv *ngIf="!showDivWithId">
+    <div class="container my-6">
+      <h2 class="text-center mb-4">Latest Blogs</h2>
+      <h3 class="text-center mb-5">In Information & Technology World</h3>
+  
+      <div class="row gy-4" id="cards">
+        <!-- Blog Card 1 -->
+        <div class="col-lg-4 col-md-6 col-12" *ngFor="let blog of blogs" (click)="navigateToBlog(blog.id)">
+          <div class="card h-100">
+            <img src="{{blog.image}}" class="card-img-top" alt="Blog 1">
+            <div class="card-body">
+              <h5 class="card-title">{{blog.title}}</h5>
+              <p class="card-text">
+                {{blog.titleDescription}}
+              </p>
+              <p class="card-text">
+                {{blog.description | slice:0:100}}...
+              </p>
+              <a class="btn btn-link">Read more →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="blog" #blogDiv *ngIf="showDivWithId" >
+    <div id="second">
+        <div class="container">
+            <h3>Blog No. {{blog.id}}</h3>
+          <div class="row">
+            <div class="col-md-6 col-12 p-3 ">
+              <img src="{{blog.image}}" class="card-img-top" alt="Blog 1">
+            </div>
+            <div class="col-md-6 col-12 p-3 ">
+              <h2>{{blog.title}}</h2>
+              <h4>{{blog.titleDescription}}</h4>
+            </div>
+            
+            <div class="col-12 mt-5">
+                <div *ngFor="let paragraph of blog.description.split('\n')" id="blog-description">
+                    <p>{{ paragraph }}</p>
+                  </div>
+              </div>
+          </div>
+         
+        </div>
+    </div>
+</div>

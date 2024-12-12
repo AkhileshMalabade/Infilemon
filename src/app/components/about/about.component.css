@@ -1,0 +1,268 @@
+/* Small screens: Phones */
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+      background-color: #f0f0f0;
+  }
+  .container-fluid{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+      margin-top: -2vh;
+    }
+    #typing-container {
+      font-family: Arial, sans-serif;
+      white-space: pre-wrap;
+      width: 100%;
+      color: white;
+      font-weight: bolder;
+      text-wrap: wrap;
+      font-size: 2.5rem;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      text-align: center;
+      background: transparent;
+    }
+    #hireteam{
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      background-color: #e25c2c;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    #hireteam2{
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(1px 2px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      font-size: 1.2em;
+      width: 70%;
+      text-align: center;
+  }
+  /* Add other styles specific to small screens */
+}
+
+/* Medium screens: Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+      font-size: 16px;
+      background-color: #e0e0e0;
+  }
+  .container-fluid{
+      height: 100%;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      padding: 0;
+      margin: 0;
+      margin-top: -2vh;
+    }
+    #typing-container {
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      white-space: pre-wrap;
+      width: 500px;
+      color: white;
+      font-weight: bolder;
+      font-size: 2.5rem;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      text-align: center;
+      background: transparent;
+    }
+    #hireteam{
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      font-size: 1.2em;
+      background-color: #e25c2c;
+    }
+   
+    #hireteam2{
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(1px 2px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      font-size: 1.2em;
+      width: 70%;
+      text-align: center;
+  }
+  /* Add other styles specific to medium screens */
+}
+
+/* Large screens: Laptops and Desktops */
+@media only screen and (min-width: 1025px) {
+  body {
+      font-size: 18px;
+      background-color: #d0d0d0;
+  }
+  .container-fluid{
+      height: 98vh;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 40px;
+      padding: 0;
+      margin: 0;
+      margin-top: -2vh;
+    }
+    #typing-container {
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      white-space: pre-wrap;
+      width: 600px;
+      color: white;
+      font-weight: bolder;
+      font-size: 4rem;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      text-align: center;
+      background: transparent;
+    }
+    #hireteam{
+      border: none;
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(4px 5px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      background-color: #e25c2c;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+    #hireteam2{
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      filter: drop-shadow(1px 2px 4px #00000059);
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      font-size: 1.2em;
+      width: 70%;
+      text-align: center;
+  }
+  /* Add other styles specific to large screens */
+}
+  
+    #hireteam:hover{
+      background-color: rgb(148, 78, 46);
+      color: white;
+    }
+
+    
+   #first{
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    font-size: 21px;
+  }
+
+  .image-text-container {
+    margin-bottom: 40px;
+  }
+  .image-text-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .text-container h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    
+  }
+  .text-container p {
+    font-size: 1.25rem;
+  }
+  @media (max-width: 576px) {
+    .text-container h2 {
+      font-size: 1rem;
+    }
+    .text-container p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .image-text-container img {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    filter: drop-shadow(4px 5px 4px #00000059);
+  }
+
+  .image-text-container {
+    margin-bottom: 40px;
+    display: flex;
+  }
+
+    .col-md-6{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+  }
+
+  #second {
+    background-color:transparent;
+    padding-top: 50px;
+    font-size: 21px;
+    height: min-content;
+    width: 100%;
+  }
+
+  #second .container-fluid{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
+  
+  #second span {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+  }
+
+  #second p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }

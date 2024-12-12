@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div id="typing-container">
+        Portfolio
+    </div>    
+      <span id="hireteam" href="/blogs">Showcasing Innovative Web Design and Marketing Solutions</span>
+</div>
+<div class="container-fluid+" id="first">
+    <h2>Website Design Portfolio</h2>
+    <span>
+        Crafting Websites That Drive Engagement and Conversions. From sleek corporate websites to vibrant e-commerce platforms, we create websites that not only look good but also perform exceptionally well.
+    </span>
+    <div id="cards" class="container  row">
+        <div  *ngFor="let site of sites" class="image-container id-{{site.id}} mb-5" (mouseenter)="startScrolling(site.id)" (mouseleave)="stopScrolling(site.id)" >
+            <a [href]="site.url" target="_blank">
+                <img [src]="site.image" loading="lazy" alt="Image" />
+            </a>
+        </div>
+    </div>
+    <div class="container" id="contactus">
+        <h2>Would you like to start a project with us?</h2>
+        <button class="btn">+91 9579801138</button>
+    </div>
+</div> 
