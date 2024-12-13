@@ -261,5 +261,11 @@
     border: 2px solid #e25c2c;
   }
 
+  .text-reset{
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+  }
+
 }
 

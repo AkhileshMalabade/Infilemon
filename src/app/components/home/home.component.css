@@ -504,6 +504,10 @@
     color: #ffffff;
   }
 
+  #blogs .card:hover .btn-link {
+    color: white;
+  }
+
   #blogs .card-title {
     font-size: 1.2rem;
     font-weight: bold;

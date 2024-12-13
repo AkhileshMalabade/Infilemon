@@ -54,6 +54,17 @@
       width: 70%;
       text-align: center;
   }
+  #serviceimg{
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+  }
+  #image-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
   /* Add other styles specific to small screens */
 }
 
@@ -114,6 +125,18 @@
       width: 70%;
       text-align: center;
   }
+  #serviceimg{
+    border-radius: 10px;
+    height: 200px;
+    width: max-content;
+  }
+  #image-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
   /* Add other styles specific to medium screens */
 }
 
@@ -172,6 +195,17 @@
       font-size: 1.2em;
       width: 70%;
       text-align: center;
+  }
+  #serviceimg{
+    border-radius: 10px;
+    height: 300px;
+    width: max-content;
+  }
+  #image-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
   }
   /* Add other styles specific to large screens */
 }
@@ -287,3 +321,4 @@
     text-align: left;
     padding: 20px;
   }
+
