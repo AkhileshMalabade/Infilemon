@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  openWhatsapp() {
+    window.open("https://api.whatsapp.com/send?phone=91970801138", "_blank");
+  }
 }
