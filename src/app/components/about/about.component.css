@@ -15,9 +15,10 @@
       text-align: center;
       margin: 0;
       margin-top: -2vh;
+      filter: drop-shadow(4px 5px 4px #00000059);
     }
     #typing-container {
-      font-family: Arial, sans-serif;
+     
       white-space: pre-wrap;
       width: 100%;
       color: white;
@@ -74,10 +75,11 @@
       padding: 0;
       margin: 0;
       margin-top: -2vh;
+      filter: drop-shadow(4px 5px 4px #00000059);
     }
     #typing-container {
       font-size: 24px;
-      font-family: Arial, sans-serif;
+     
       white-space: pre-wrap;
       width: 500px;
       color: white;
@@ -134,10 +136,11 @@
       padding: 0;
       margin: 0;
       margin-top: -2vh;
+      filter: drop-shadow(4px 5px 4px #00000059);
     }
     #typing-container {
       font-size: 24px;
-      font-family: Arial, sans-serif;
+     
       white-space: pre-wrap;
       width: 600px;
       color: white;
@@ -199,10 +202,14 @@
   .text-container h2 {
     font-size: 1.75rem;
     font-weight: 600;
-    
+    filter: drop-shadow(1px 2px 3px #00000023);
+    color: #312d2bea;
+    width: 100%;
+    text-align: left;
   }
   .text-container p {
     font-size: 1.25rem;
+    color: #312d2bea;
   }
   @media (max-width: 576px) {
     .text-container h2 {

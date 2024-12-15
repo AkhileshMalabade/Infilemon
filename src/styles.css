@@ -1,84 +1,126 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     
   }
-  .roboto-thin {
-    font-family: "Roboto", sans-serif;
+  
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
   }
   
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
   }
   
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
   
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
   }
   
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
   }
   
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
   }
   
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: italic;
   }
   
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: italic;
   }
   
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: italic;
   }
   
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
   }
   
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: italic;
   }
   
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: italic;
   }
+  
   
   .parallax {
     /* The image used */
- background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw3QJKuUG6thDu03aVimbV5A1nXtrXEZ3nUw&s');
+    background: rgb(33,155,226);
+    background: -moz-linear-gradient(90deg, rgba(33,155,226,1) 0%, rgba(27,56,76,1) 91%);
+    background: -webkit-linear-gradient(90deg, rgba(33,155,226,1) 0%, rgba(27,56,76,1) 91%);
+    background: linear-gradient(90deg, rgba(33,155,226,1) 0%, rgba(27,56,76,1) 91%);
+
     background-repeat: fixed 100%;
     /* Set a specific height */
     min-height: 100vh; 
@@ -134,7 +176,7 @@ body {
       height: auto;
       margin-bottom: 2rem;
       position: fixed;
-      top: 91%;
+      top: 92%;
       left: 1%;
       z-index: 1000;
       cursor: pointer;
@@ -147,7 +189,7 @@ body {
       height: auto;
       margin-bottom: 2rem;
       position: fixed;
-      top: 91%;
+      top: 92%;
       left: 2%;
       z-index: 1000;
       cursor: pointer;
@@ -160,7 +202,7 @@ body {
       height: auto;
       margin-bottom: 2rem;
       position: fixed;
-      top: 94%;
+      top: 95%;
       left: 2%;
       z-index: 1000;
       cursor: pointer;

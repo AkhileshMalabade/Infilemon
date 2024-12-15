@@ -15,16 +15,16 @@
 }
 
 .navbar-brand img {
-  height: 50px;
+  height: 55px;
   filter: drop-shadow(4px 5px 4px #00000059);
 }
 
 a.nav-link {
   color: rgb(247, 247, 247);
   font-weight: bold;
-  filter: drop-shadow(1px 3px 4px #00000011);
+  filter: drop-shadow(1px 3px 4px #00000065);
   font-size: 20px;
-  font-family: Arial, sans-serif;
+ 
 }
 
 .navbar-nav {
@@ -36,9 +36,9 @@ a.nav-link {
 
 
 #hireteam{
-  background-color: #e25c2c;
+  background-color: #ffff;
   border: none;
-  color: #ffffff;
+  color: #e25c2c;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
@@ -48,6 +48,6 @@ a.nav-link {
 }
 
 #hireteam:hover{
-  background-color: rgb(148, 78, 46);
+  background-color: #e25c2c;
   color: white;
 }

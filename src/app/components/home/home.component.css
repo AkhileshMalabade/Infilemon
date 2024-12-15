@@ -14,10 +14,10 @@
       text-align: center;
       margin: 0;
       margin-top: -2vh;
+      filter: drop-shadow(4px 5px 4px #00000059);
     }
     #typing-container {
       font-size: 1.9em;
-      font-family: Arial, sans-serif;
       white-space: pre-wrap;
       width: 100%;
       height: fit-content;
@@ -81,11 +81,11 @@
       padding: 0;
       margin: 0;
       margin-top: -2vh;
+      filter: drop-shadow(4px 5px 4px #00000059);
 
     }
     #typing-container {
       font-size: 24px;
-      font-family: Arial, sans-serif;
       white-space: pre-wrap;
       width: 500px;
       color: white;
@@ -149,12 +149,12 @@
       padding: 0;
       margin: 0;
       margin-top: -2vh;
+      filter: drop-shadow(4px 5px 4px #00000059);
     }
     #typing-container {
       font-size: 24px;
-      font-family: Arial, sans-serif;
       white-space: pre-wrap;
-      width: 800px;
+      width: 50%;
       color: white;
       font-weight: bolder;
       font-size: 4rem;
@@ -164,16 +164,16 @@
     }
     #hireteam{
       border: none;
-      color: #ffffff;
+      color: white;
       padding: 10px 20px;
       border-radius: 5px;
       filter: drop-shadow(4px 5px 4px #00000059);
       cursor: pointer;
       background-color: #e25c2c;
-      font-weight: bold;
+      font-weight: bolder;
       transition: background-color 0.3s ease;
       margin-top: 20px;
-      font-size: 1.2em;
+      font-size: 1.3em;
     }
     .services{
       display: flex;
@@ -201,7 +201,7 @@
 
 
   #hireteam:hover{
-    background-color: rgb(148, 78, 46);
+    background-color: #e25c2c;
     color: white;
   }
 
@@ -238,6 +238,7 @@
   #itservices >h3{
     font-size: 2.1em;
     font-weight: bolder;
+    color: #312d2bea;
   }
 
   #cards{
@@ -261,6 +262,15 @@
     transition: all 0.3s ease-in-out;
     height: 100%;
     cursor: pointer;
+    isolation: isolate;
+  }
+
+  .card:hover{
+    background: #312d2bea;
+    background-position: center;
+    background-size: cover;
+    
+    color: white;
   }
 
   .card-body{
@@ -275,10 +285,7 @@
     text-decoration: none;
   }
 
-  .card:hover{
-    background-color: #e25c2c;
-    color: white;
-  }
+  
 
   .card:hover > .card-body >a{
     color: white;
@@ -287,7 +294,6 @@
   #itservices >span{
     font-size: 1.1em;
     color: #3d3c3c;
-    font-family: 'Inter', sans-serif !important;
     font-weight: 400;
   }
 
@@ -329,6 +335,7 @@
   .section-heading {
     font-size: 1.8rem;
     font-weight: bold;
+    color: #312d2bea;
   }
   .highlight {
     font-weight: bold;
@@ -416,6 +423,7 @@
 @media (max-width: 768px) {
   .custom-text {
     font-size: 1rem; /* Adjust font size for small screens */
+    
   }
 }
 
@@ -430,6 +438,7 @@
    font-size: larger;
    justify-content: space-around;
    padding-bottom: 10px;
+   
   }
 
   .counter {
@@ -438,6 +447,7 @@
     text-align: center;
     color: #3d3c3c; 
     animation: pop 0.5s ease-in-out;
+    filter: drop-shadow(4px 5px 4px #0000003a);
   }
   
   @keyframes pop {
