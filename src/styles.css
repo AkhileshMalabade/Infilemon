@@ -113,9 +113,8 @@ body {
     font-style: italic;
   }
   
-  
-  .parallax {
-    /* The image used */
+  body{
+
     background: rgb(33,155,226);
     background: -moz-linear-gradient(90deg, rgba(33,155,226,1) 0%, rgba(27,56,76,1) 91%);
     background: -webkit-linear-gradient(90deg, rgba(33,155,226,1) 0%, rgba(27,56,76,1) 91%);
@@ -130,6 +129,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  
+  .parallax {  
+    background: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.479)),
+    url("../src/app/Assets/imeages/InfilemonLogo.svg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   nav {
     background-color: #333;

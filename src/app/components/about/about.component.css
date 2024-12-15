@@ -99,7 +99,7 @@
       font-weight: bold;
       transition: background-color 0.3s ease;
       margin-top: 20px;
-      font-size: 1.2em;
+      font-size: 1.5em;
       background-color: #e25c2c;
     }
    
@@ -172,7 +172,7 @@
       cursor: pointer;
       font-weight: bold;
       transition: background-color 0.3s ease;
-      font-size: 1.2em;
+      font-size: 1.5em;
       width: 70%;
       text-align: center;
   }

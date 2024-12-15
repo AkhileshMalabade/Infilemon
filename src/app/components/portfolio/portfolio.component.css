@@ -109,7 +109,7 @@
         font-weight: bold;
         transition: background-color 0.3s ease;
         margin-top: 20px;
-        font-size: 1.2em;
+        font-size: 1.5em;
       }
       #contactus{
         height: 100%;
@@ -178,7 +178,7 @@
         font-weight: bold;
         transition: background-color 0.3s ease;
         margin-top: 20px;
-        font-size: 1.2em;
+        font-size: 1.5em;
       }
       #contactus{
         height: 100%;
@@ -239,7 +239,7 @@
   #first span{
     font-size: 1.2rem;
     color: #000000;
-    width: 800px;
+    width: 75%;
   }
 
   .image-container {

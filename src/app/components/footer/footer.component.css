@@ -267,5 +267,9 @@
     text-decoration: none;
   }
 
+  .text-reset:hover{
+    color: #e25c2c;
+  }
+
 }
 
