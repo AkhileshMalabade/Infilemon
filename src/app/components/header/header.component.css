@@ -38,6 +38,10 @@ a.nav-link {
  
 }
 
+a.nav-link:hover {
+  color: #e25c2c;
+}
+
 .navbar-nav {
   display: flex;
   align-items: left;

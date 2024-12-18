@@ -260,16 +260,15 @@
 
     border: 2px solid #e25c2c;
   }
-
-  .text-reset{
-    color: black;
-    font-weight: 550;
-    text-decoration: none;
-  }
-
-  .text-reset:hover{
-    color: #e25c2c;
-  }
-
 }
 
+
+.text-rese{
+  color: black;
+  font-weight: 550; 
+  text-decoration: none;
+}
+
+.text-rese:hover{ 
+  color: #e25c2c;
+}
