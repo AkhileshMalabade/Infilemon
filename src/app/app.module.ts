@@ -13,6 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BlogComponent } from './components/blog/blog.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
+import { TermsComponent } from './components/terms/terms.component';
+import { RefundComponent } from './components/refund/refund.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,9 @@ import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy
     FooterComponent,
     BlogComponent,
     PortfolioComponent,
-    PrivacypolicyComponent
+    PrivacypolicyComponent,
+    TermsComponent,
+    RefundComponent
   ],
   imports: [
     BrowserModule,

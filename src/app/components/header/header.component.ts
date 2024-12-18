@@ -8,6 +8,9 @@ import { concatMap } from 'rxjs';
 })
 
 export class HeaderComponent {
+openWhatsapp() {
+throw new Error('Method not implemented.');
+}
 
   @HostListener('window:scroll', [])
   onWindowScroll() {

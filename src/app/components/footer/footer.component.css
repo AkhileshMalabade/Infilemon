@@ -272,3 +272,28 @@
 .text-rese:hover{ 
   color: #e25c2c;
 }
+
+#fot{
+  background: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fot a{
+  color: red;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+  #fot{
+    background: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

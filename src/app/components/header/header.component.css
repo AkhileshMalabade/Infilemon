@@ -66,3 +66,18 @@ a.nav-link:hover {
   background-color: #e25c2c;
   color: white;
 }
+
+#fot{
+  display: none;
+}
+
+@media only screen and (min-width: 1025px) {
+  #fot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
+    padding: 5px;
+    font-size: large;
+  }
+}
