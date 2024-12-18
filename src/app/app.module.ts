@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BlogComponent } from './components/blog/blog.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
     HeaderComponent,
     FooterComponent,
     BlogComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    PrivacypolicyComponent
   ],
   imports: [
     BrowserModule,
