@@ -81,3 +81,46 @@ a.nav-link:hover {
     font-size: large;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  #hireteam{
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    filter: drop-shadow(1px 3px 4px #00000065);
+    font-size: 20px;  
+  background-color: transparent;
+  padding: 0;
+  margin-top: 20px;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    background-color: #312d2bea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  #hireteam{
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+    filter: drop-shadow(1px 3px 4px #00000065);
+    font-size: 20px;  
+  background-color: transparent;
+  padding: 0;
+  margin-top: 20px;
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.4s ease;
+    background-color: #312d2bea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
