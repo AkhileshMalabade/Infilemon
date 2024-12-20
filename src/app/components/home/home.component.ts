@@ -11,7 +11,7 @@ navigateToContact() {
   this.router.navigate(['/contact']);
 }
 
-  @Input() text: string = 'Empowering Innovation, Driving Solutions, Building the Future.'; 
+  @Input() text: string = 'IT Solutions for Digital Transformation.'; 
   @Input() typingSpeed: number = 90;
   displayedText: string = '';
   private currentIndex: number = 0; 

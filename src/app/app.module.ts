@@ -15,6 +15,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { RefundComponent } from './components/refund/refund.component';
+import { CareerComponent } from './components/career/career.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,8 @@ import { RefundComponent } from './components/refund/refund.component';
     PortfolioComponent,
     PrivacypolicyComponent,
     TermsComponent,
-    RefundComponent
+    RefundComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,

@@ -231,6 +231,8 @@
     background-color: white;
     padding-top: 50px;
     font-size: 21px;
+    height: max-content;
+    padding-bottom: 40px;
   }
 
   .services-section h1 {
@@ -341,4 +343,55 @@
     text-align: left;
     padding: 20px;
   }
+
+  #cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    text-align: left;
+    height: 100%;
+  }
+
+  #cards .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+    height: 100%;
+    cursor: pointer;
+    isolation: isolate;
+  }
+
+  .card:hover{
+    background: #312d2bea;
+    background-position: center;
+    background-size: cover;
+    
+    color: white;
+  }
+
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: large;
+  }
+
+  .card-link{
+    color: black;
+    text-decoration: none;
+  }
+
+  
+
+  .card:hover > .card-body >a{
+    color: white;
+  }
+
 

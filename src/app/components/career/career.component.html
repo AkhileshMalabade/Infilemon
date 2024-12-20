@@ -1,0 +1,51 @@
+<div class="container-fluid py-5 bg-body-tertiary">
+    <div class="text-center mb-4">
+      <h1>Open Positions</h1>
+    </div>
+  
+    <div class="row justify-content-center">
+      <div *ngFor="let job of jobs" class="col-12 mb-4">
+        <div class="container card shadow-sm bg-white p-4">
+          <h3 class="card-title">{{ job.title }}</h3>
+          <p class="card-text mb-2">
+            <strong>Type:</strong> {{ job.type }}<br>
+            <strong>Location:</strong> {{ job.location }}
+          </p>
+          <button type="button" class="btn btn-dark mt-2" style="width: max-content;" (click)="openPopup(job)">Apply Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal for job details -->
+  <div *ngIf="selectedJob" class="modal fade show d-block" tabindex="-1" role="dialog" aria-hidden="true" style="background: rgba(0, 0, 0, 0.5);">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">{{ selectedJob.title }}</h5>
+        </div>
+        <div class="modal-body">
+          <p><strong>Type:</strong> {{ selectedJob.type }}</p>
+          <p><strong>Location:</strong> {{ selectedJob.location }}</p>
+          <p><strong>Duration:</strong> {{ selectedJob.duration }}</p>
+          <h4 class="mt-4">Job Description:</h4>
+          <p>{{ selectedJob.description }}</p>
+          <h5>Responsibilities:</h5>
+          <ul>
+            <li *ngFor="let item of selectedJob.responsibilities">{{ item }}</li>
+          </ul>
+          <h5>Qualifications:</h5>
+          <p>{{ selectedJob.qualifications }}</p>
+          <h5>Benefits:</h5>
+          <ul>
+            <li *ngFor="let benefit of selectedJob.benefits">{{ benefit }}</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success" (click)="openForm()" >Apply</button>
+            <button type="button" class="btn btn-secondary" (click)="closePopup()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

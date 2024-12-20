@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
@@ -9,6 +9,7 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
 import { TermsComponent } from './components/terms/terms.component';
 import { RefundComponent } from './components/refund/refund.component';
+import { CareerComponent } from './components/career/career.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,7 +23,8 @@ const routes: Routes = [
   { path: 'privacy-policy', component: PrivacypolicyComponent },
   { path: 'terms-conditions', component: TermsComponent },
   { path: 'refund-cancelation', component: RefundComponent },
-];
+  {path: 'careers', component: CareerComponent},
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
