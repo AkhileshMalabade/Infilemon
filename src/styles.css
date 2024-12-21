@@ -132,8 +132,7 @@ body {
   }
   
   .parallax {  
-    background: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.479)),
-    url("../src/app/Assets/imeages/InfilemonLogo.svg");
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
