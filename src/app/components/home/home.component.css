@@ -44,7 +44,7 @@
       filter: drop-shadow(4px 5px 4px #00000059);
       cursor: pointer;
       font-weight: bold;
-      background-color: #e25c2c;
+      background-color: #ffffff;
       transition: background-color 0.3s ease;
       margin-top: 20px;
       font-size: 1.2em;
@@ -223,14 +223,7 @@
 
   
 
-  @keyframes blink {
-    0%, 50% {
-      border-color:white;
-    }
-    50.1%, 100% {
-      border-color: transparent;
-    }
-  }
+
   #itservices{
     display: flex;
     align-items: center;
@@ -599,3 +592,13 @@
   }
 }
 
+
+
+  @keyframes blink {
+    0%, 50% {
+      border-color:white;
+    }
+    50.1%, 100% {
+      border-color: transparent;
+    }
+  }
