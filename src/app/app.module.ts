@@ -16,6 +16,8 @@ import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy
 import { TermsComponent } from './components/terms/terms.component';
 import { RefundComponent } from './components/refund/refund.component';
 import { CareerComponent } from './components/career/career.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LandingpageComponent } from './components/landingpage/landingpage.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,9 +32,11 @@ import { CareerComponent } from './components/career/career.component';
     PrivacypolicyComponent,
     TermsComponent,
     RefundComponent,
-    CareerComponent
+    CareerComponent,
+    LandingpageComponent
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
