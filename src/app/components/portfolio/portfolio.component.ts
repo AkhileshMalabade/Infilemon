@@ -57,41 +57,41 @@ export class PortfolioComponent {
 
   sites = [
     {
-
-      id:1,
-      name: 'Website 1',
-      url: 'iCHALKARANJI NEWS24',
-      image: 'https://i.postimg.cc/0yDJshnG/Screenshot-12-12-2024-162530-ichalkaranjinews24-com.jpg',
-    },
-    {
       id:2,
       name: 'Website 2',
       url: 'M Box Industries',
-      image: 'https://dreemtree.com/wp-content/uploads/2024/10/screencapture-mboxindustries-2024-09-29-17_48_14.png',
+      image: 'https://i.postimg.cc/cHpvdP10/Screenshot-13-1-2025-231334-nuagecx-com-4.jpg',
     },
     {
       id:3,
       name: 'Website 3',
       url: 'Kanade Advertising',
-      image: 'https://dreemtree.com/wp-content/uploads/2024/10/screencapture-kanadeadvertising-2024-10-03-14_08_06.png',
+      image: 'https://i.postimg.cc/zvntXZNr/Screenshot-13-1-2025-234835-blog-raynatours-com-1.jpg',
     },
     {
       id:4,
       name: 'Website 4',
       url: 'Ojas Tax',
-      image: 'https://dreemtree.com/wp-content/uploads/2024/10/screencapture-ojastax-2024-10-03-14_09_41.png',
+      image: 'https://i.postimg.cc/8CrfJLK1/Screenshot-13-1-2025-235617-www-kemhospitalpune-org.jpg',
     },
     {
       id:5,
       name: 'Website 5',
       url: 'Chandrakala Tea',
-      image: 'https://dreemtree.com/wp-content/uploads/2024/10/chandrakala.png',
+      image: 'https://i.postimg.cc/CKdRqX7T/Screenshot-13-1-2025-23584-alcorfund-com-1-1.jpg',
     },
     {
       id:6,
       name: 'Website 6',
       url: 'Wingkart Apparel',
-      image: 'https://dreemtree.com/wp-content/uploads/2024/10/wingkart.png',
+      image: 'https://i.postimg.cc/rpymLb3R/Screenshot-14-1-2025-0153-hiddencreekevents-com-2.jpg',
+    },
+    {
+
+      id:1,
+      name: 'Website 1',
+      url: 'iCHALKARANJI NEWS24',
+      image: 'https://i.postimg.cc/0yDJshnG/Screenshot-12-12-2024-162530-ichalkaranjinews24-com.jpg',
     }
 ];
 
