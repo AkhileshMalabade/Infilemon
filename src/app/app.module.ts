@@ -18,6 +18,7 @@ import { RefundComponent } from './components/refund/refund.component';
 import { CareerComponent } from './components/career/career.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +34,7 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
     TermsComponent,
     RefundComponent,
     CareerComponent,
-    LandingpageComponent
+    LandingpageComponent,
   ],
   imports: [
     HttpClientModule,
