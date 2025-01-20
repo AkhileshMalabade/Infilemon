@@ -18,7 +18,7 @@ import { RefundComponent } from './components/refund/refund.component';
 import { CareerComponent } from './components/career/career.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LandingpageComponent } from './components/landingpage/landingpage.component';
-import { SitemapComponent } from './sitemap/sitemap.component';
+import { SitemapDirective } from './sitemap.directive';
 
 @NgModule({
   declarations: [
@@ -36,7 +36,7 @@ import { SitemapComponent } from './sitemap/sitemap.component';
     RefundComponent,
     CareerComponent,
     LandingpageComponent,
-    SitemapComponent,
+    SitemapDirective,
   ],
   imports: [
     HttpClientModule,

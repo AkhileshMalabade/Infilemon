@@ -10,7 +10,7 @@ import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy
 import { TermsComponent } from './components/terms/terms.component';
 import { RefundComponent } from './components/refund/refund.component';
 import { CareerComponent } from './components/career/career.component';
-import { SitemapComponent } from './sitemap/sitemap.component';
+// import { SitemapComponent } from './sitemap/sitemap.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'terms-conditions', component: TermsComponent },
   { path: 'refund-cancelation', component: RefundComponent },
   {path: 'careers', component: CareerComponent},
-  { path: 'sitemap.xml', component: SitemapComponent }
+  // { path: 'sitemap.xml', component: SitemapComponent }
 ]
 
 @NgModule({
